@@ -28,7 +28,7 @@ export const GamePage: React.FC = () => {
 
         {/* Game Frame */}
         <div className="flex justify-center">
-          <GameFrame url="https://example.com/game" />
+          <GameFrame url="https://bith-life.vercel.app" />
         </div>
 
         {/* Game Description */}
