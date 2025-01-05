@@ -1,0 +1,9 @@
+export { CareersPage } from './Careers/CareersPage';
+export { RelationshipsPage } from './Relationships/RelationshipsPage';
+export { MoneyPage } from './Money/MoneyPage';
+export { EducationPage } from './Education/EducationPage';
+export { FamePage } from './Fame/FamePage';
+export { SportsPage } from './Sports/SportsPage';
+export { ActivitiesPage } from './Activities/ActivitiesPage';
+export { ChallengePage } from './Challenge/ChallengePage';
+export { GenerationPage } from './Generation/GenerationPage';
