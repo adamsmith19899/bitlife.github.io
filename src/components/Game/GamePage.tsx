@@ -5,8 +5,8 @@ import { FavoriteButton } from './GameActions/FavoriteButton';
 import { ShareButton } from './GameActions/ShareButton';
 
 export const GamePage: React.FC = () => {
-  const gameTitle = "Awesome Game Title";
-  const gameDescription = "Experience an incredible gaming adventure with stunning graphics and immersive gameplay.";
+  const gameTitle = "Bitlife Simulation";
+  const gameDescription = "BitLife is a masterpiece of mobile gaming, offering a unique and addictive simulation experience that challenges players to navigate the ups and downs of virtual life. With its simple yet engaging gameplay mechanic, BitLife has become a must-play title for fans of simulation games and anyone looking for a fun and thought-provoking gaming experience.";
 
   return (
     <div className="min-h-screen pt-16 md:pt-24 pb-6 md:pb-12 px-3 md:px-4">
