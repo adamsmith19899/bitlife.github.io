@@ -15,7 +15,7 @@ const contactDetails = [
   {
     icon: Mail,
     title: 'Email us',
-    details: ['support@gamecompany.com'],
+    details: ['info@pog0.games'],
   },
 ];
 
