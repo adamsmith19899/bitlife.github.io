@@ -1,10 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { BlogFeatured } from './BlogFeatured';
 import { BlogGrid } from './BlogGrid';
-import { blogPosts } from '../../data/blogPosts';
+import { 
+  careerPosts, relationshipPosts, moneyPosts, educationPosts,
+  famePosts, sportsPosts, activityPosts, challengePosts, generationPosts 
+} from '../../data/categoryPosts';
 
 export const BlogSection: React.FC = () => {
-  const [featuredPost, ...gridPosts] = blogPosts;
+  const allPosts = [
+    ...careerPosts,
+    ...relationshipPosts,
+    ...moneyPosts,
+    ...educationPosts,
+    ...famePosts,
+    ...sportsPosts,
+    ...activityPosts,
+    ...challengePosts,
+    ...generationPosts,
+  ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+  const [featuredPost, ...gridPosts] = allPosts;
 
   return (
     <section className="py-16 md:py-24 px-4">
@@ -13,8 +29,10 @@ export const BlogSection: React.FC = () => {
           Latest from our Blog
         </h2>
         <div className="space-y-12">
-          <BlogFeatured post={featuredPost} />
-          <BlogGrid posts={gridPosts} />
+          <Link to={`/blog/${featuredPost.id}`}>
+            <BlogFeatured post={featuredPost} />
+          </Link>
+          <BlogGrid posts={gridPosts.slice(0, 6)} />
         </div>
       </div>
     </section>
