@@ -24,6 +24,13 @@ export const Footer: React.FC = () => {
         <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12">
           <div className="grid md:grid-cols-2 gap-8">
             <div>
+              <h3 className="text-white font-semibold mb-4">About BitLife</h3>
+              <p className="text-white/70 text-sm leading-relaxed">
+                BitLife is a revolutionary life simulation platform where players can experience unique storylines, make impactful decisions, and shape their virtual destiny through immersive gameplay.
+              </p>
+            </div>
+
+            <div>
               <h3 className="text-white font-semibold mb-4">{footerLinks[0].title}</h3>
               <ul className="space-y-2">
                 {footerLinks[0].links.map((link) => (
@@ -59,7 +66,7 @@ export const Footer: React.FC = () => {
           
           <div className="mt-8 pt-8 border-t border-white/10">
             <p className="text-white/60 text-sm text-center">
-              © {new Date().getFullYear()} Your Company. All rights reserved.
+              © {new Date().getFullYear()} BitLife. All rights reserved.
             </p>
           </div>
         </div>
