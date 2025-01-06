@@ -6,7 +6,8 @@ const footerLinks = [
   { title: 'Company', links: [
     { label: 'About', path: '/about' },
     { label: 'Privacy Policy', path: '/privacy' },
-    { label: 'Terms', path: '/terms' },    
+    { label: 'Terms', path: '/terms' },
+    { label: 'DMCA', path: '/dmca' },
   ]},
 ];
 
@@ -22,7 +23,7 @@ export const Footer: React.FC = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-red-950/50" />
       <div className="relative container mx-auto px-4 py-12">
         <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             <div>
               <h3 className="text-white font-semibold mb-4">About BitLife</h3>
               <p className="text-white/70 text-sm leading-relaxed">
