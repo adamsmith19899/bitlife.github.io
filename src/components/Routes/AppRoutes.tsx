@@ -17,7 +17,7 @@ export const AppRoutes: React.FC = () => {
   return (
     <Routes>
       <Route path="/" element={<Hero />} />
-      <Route path="/game" element={<GamePage />} />
+      <Route path="/bitlife" element={<GamePage />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/privacy" element={<Privacy />} />
