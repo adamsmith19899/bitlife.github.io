@@ -6,7 +6,8 @@ const footerLinks = [
   { title: 'Company', links: [
     { label: 'About', path: '/about' },
     { label: 'Privacy Policy', path: '/privacy' },
-    { label: 'Terms', path: '/terms' },    
+    { label: 'Terms', path: '/terms' }, 
+    { label: 'DMCA', path: '/Dmca' },  
   ]},
 ];
 
