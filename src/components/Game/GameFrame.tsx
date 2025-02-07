@@ -17,7 +17,7 @@ export const GameFrame: React.FC<GameFrameProps> = ({ url }) => {
       className={`relative ${
         isFullscreen 
           ? 'fixed inset-0 z-50' 
-          : 'w-full h-[300px] md:aspect-video md:h-auto md:max-w-5xl'
+          : 'w-full h-[400px] md:aspect-video md:h-auto md:max-w-5xl'
       }`}
     >
       <div className="absolute top-2 md:top-4 right-2 md:right-4 z-10">
