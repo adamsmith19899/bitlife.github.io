@@ -1,8 +1,9 @@
 import React from 'react';
+import type { FC } from 'react';
 import { Link } from 'react-router-dom';
 import { Baby } from 'lucide-react';
 
-export const Logo: React.FC = () => {
+export const Logo: FC = () => {
   return (
     <Link 
       to="/" 
