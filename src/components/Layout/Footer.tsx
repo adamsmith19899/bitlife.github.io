@@ -66,7 +66,7 @@ export const Footer: React.FC = () => {
           
           <div className="mt-8 pt-8 border-t border-white/10">
             <p className="text-white/60 text-sm text-center">
-              © {new Date().getFullYear()} Bitlife. All rights reserved.
+              © {new Date().getFullYear()} Pog0 Games. All rights reserved.
             </p>
           </div>
         </div>
