@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Github, Twitter, Linkedin } from 'lucide-react';
 
 const footerLinks = [
-  { title: 'Company', links: [
+  { title: 'Quick Links', links: [
     { label: 'About', path: '/about' },
     { label: 'Privacy Policy', path: '/privacy' },
     { label: 'Terms', path: '/terms' },
