@@ -15,7 +15,7 @@ const contactDetails = [
   {
     icon: Mail,
     title: 'Email us',
-    details: ['info@pog0.games'],
+    details: ['info@eblogs.online'],
   },
 ];
 
