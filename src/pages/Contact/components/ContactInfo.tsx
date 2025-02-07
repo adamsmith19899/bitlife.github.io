@@ -10,7 +10,7 @@ const contactDetails = [
   {
     icon: Phone,
     title: 'Call us',
-    details: ['+1 (555) 123-4567'],
+    details: ['+1 (555) 457-4517'],
   },
   {
     icon: Mail,
