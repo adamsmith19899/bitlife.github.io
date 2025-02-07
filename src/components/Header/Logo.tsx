@@ -9,7 +9,7 @@ export const Logo: React.FC = () => {
       className="flex items-center gap-2 text-white hover:text-white/90 transition-colors"
     >
       <Baby className="w-5 h-5 md:w-6 md:h-6" />
-      <span className="font-bold text-sm md:text-lg">eblogs</span>
+      <span className="font-bold text-sm md:text-lg">Bitlife</span>
     </Link>
   );
 };
