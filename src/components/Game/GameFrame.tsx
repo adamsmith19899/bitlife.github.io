@@ -28,7 +28,7 @@ export const GameFrame: React.FC<GameFrameProps> = ({ url }) => {
           {isFullscreen ? (
             <Minimize2 className="text-white w-4 h-4 md:w-5 md:h-5" />
           ) : (
-            <Maximize2 className="text-white w-4 h-4 md:w-5 md:h-7" />
+            <Maximize2 className="text-white w-4 h-4 md:w-5 md:h-5" />
           )}
         </button>
       </div>
@@ -37,7 +37,7 @@ export const GameFrame: React.FC<GameFrameProps> = ({ url }) => {
         className="w-full h-full rounded-xl md:rounded-2xl shadow-2xl"
         style={{ 
           minHeight: isFullscreen ? '100vh' : '300px',
-          height: isFullscreen ? '100vh' : undefined
+          height: isFullscreen ? '100vh' : 300px
         }}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
