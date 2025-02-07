@@ -6,13 +6,13 @@ const footerLinks = [
   { title: 'Company', links: [
     { label: 'About', path: '/about' },
     { label: 'Privacy Policy', path: '/privacy' },
-    { label: 'Terms', path: '/terms' }, 
-    { label: 'DMCA', path: '/Dmca' },  
+    { label: 'Terms', path: '/terms' },
+    { label: 'DMCA', path: '/dmca' },
   ]},
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/adamsmith19899' },
+  { icon: Github, href: 'https://github.com' },
   { icon: Twitter, href: 'https://twitter.com' },
   { icon: Linkedin, href: 'https://linkedin.com' },
 ];
@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
         <div className="bg-white/10 backdrop-blur-md rounded-3xl p-8 md:p-12">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-white font-semibold mb-4">About</h3>
+              <h3 className="text-white font-semibold mb-4">About the Game </h3>
               <p className="text-white/70 text-sm leading-relaxed">
                 BitLife Unblocked is a revolutionary life simulation platform where players can experience unique storylines, make impactful decisions, and shape their virtual destiny through immersive gameplay.
               </p>
