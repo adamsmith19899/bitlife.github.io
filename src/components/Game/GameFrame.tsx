@@ -17,7 +17,7 @@ export const GameFrame: React.FC<GameFrameProps> = ({ url }) => {
       className={`relative ${
         isFullscreen 
           ? 'fixed inset-0 z-50' 
-          : 'w-auto aspect-video max-w-5xl'
+          : 'w-full aspect-video max-w-5xl'
       }`}
     >
       <div className="absolute top-2 md:top-4 right-2 md:right-4 z-10">
@@ -36,8 +36,8 @@ export const GameFrame: React.FC<GameFrameProps> = ({ url }) => {
         src={url}
         className="w-full h-full rounded-xl md:rounded-2xl shadow-2xl"
         style={{ 
-          minHeight: isFullscreen ? '100vh' : 'auto',
-          height: isFullscreen ? '100vh' : undefined ,
+          minHeight: isFullscreen ? '100vh' : '300px',
+          height: isFullscreen ? '100vh' : undefined
         }}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
