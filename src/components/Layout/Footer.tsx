@@ -12,7 +12,7 @@ const footerLinks = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com' },
+  { icon: Github, href: 'https://github.com/adamsmith19899' },
   { icon: Twitter, href: 'https://twitter.com' },
   { icon: Linkedin, href: 'https://linkedin.com' },
 ];
