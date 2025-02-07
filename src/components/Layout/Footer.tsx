@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
             <div>
               <h3 className="text-white font-semibold mb-4">About</h3>
               <p className="text-white/70 text-sm leading-relaxed">
-                BitLife is a revolutionary life simulation platform where players can experience unique storylines, make impactful decisions, and shape their virtual destiny through immersive gameplay.
+                BitLife Unbocked is a revolutionary life simulation platform where players can experience unique storylines, make impactful decisions, and shape their virtual destiny through immersive gameplay.
               </p>
             </div>
 
