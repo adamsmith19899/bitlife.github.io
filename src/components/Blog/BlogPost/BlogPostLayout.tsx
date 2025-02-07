@@ -17,7 +17,7 @@ export const BlogPostLayout: React.FC<BlogPostLayoutProps> = ({ post }) => {
           alt={post.title}
           className="absolute inset-0 w-full h-full object-cover rounded-2xl"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-Grey/60 to-transparent rounded-2xl" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent rounded-2xl" />
       </div>
 
       {/* Content */}
