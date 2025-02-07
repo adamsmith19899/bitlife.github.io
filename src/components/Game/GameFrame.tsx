@@ -28,7 +28,7 @@ export const GameFrame: React.FC<GameFrameProps> = ({ url }) => {
           {isFullscreen ? (
             <Minimize2 className="text-white w-4 h-4 md:w-5 md:h-5" />
           ) : (
-            <Maximize2 className="text-white w-4 h-4 md:w-5 md:h-5" />
+            <Maximize2 className="text-white w-4 h-4 md:w-5 md:h-7" />
           )}
         </button>
       </div>
