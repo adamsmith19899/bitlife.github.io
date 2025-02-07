@@ -36,7 +36,7 @@ export const GameFrame: React.FC<GameFrameProps> = ({ url }) => {
         src={url}
         className="w-full h-full rounded-xl md:rounded-2xl shadow-2xl"
         style={{ 
-          minHeight: isFullscreen ? '100vh' : '300px',
+          minHeight: isFullscreen ? '100vh' : '700px',
           height: isFullscreen ? '100vh' : undefined
         }}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
