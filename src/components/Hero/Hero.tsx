@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
         <div className="container mx-auto px-4 py-8 md:py-0 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="space-y-4 md:space-y-6 text-center md:text-left">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
-              Bitlife Simulator
+              Bitlife Simulator Online
             </h1>
             <p className="text-white/80 text-base md:text-lg">
               Players make choices at every stage, influencing their character's relationships, education, career, health, and overall well-being.
